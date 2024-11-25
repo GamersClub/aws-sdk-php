@@ -1442,6 +1442,7 @@ EOT;
 
     private static function emitDeprecationWarning()
     {
+        return;
         $phpVersionString = phpversion();
         trigger_error(
             "This installation of the SDK is using PHP version"
